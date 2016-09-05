@@ -1,0 +1,44 @@
+﻿빌드 시작: 2016-09-05 오후 3:44:58
+     1>2 노드의 "E:\과제\컴그\5176270컴그과제\FrameWork\FrameWork.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../utilities /IC:\Graphics\Tools\glew\include /IC:\Graphics\Tools\fltk\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D FL_DLL /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3DUtils.cpp DrawUtils.cpp glm.cpp main.cpp MMatrix.cpp MyGlWindow.cpp RunButton.cpp stdafx.cpp
+         stdafx.cpp
+         RunButton.cpp
+         MyGlWindow.cpp
+     1>e:\과제\컴그\5176270컴그과제\framework\myglwindow.cpp(124): warning C4305: '인수' : 'double'에서 'GLfloat'(으)로 잘립니다.
+     1>e:\과제\컴그\5176270컴그과제\framework\myglwindow.cpp(303): warning C4305: '인수' : 'double'에서 'GLfloat'(으)로 잘립니다.
+     1>e:\과제\컴그\5176270컴그과제\framework\myglwindow.cpp(311): warning C4305: '인수' : 'double'에서 'GLfloat'(으)로 잘립니다.
+         MMatrix.cpp
+         main.cpp
+         glm.cpp
+     1>e:\과제\컴그\5176270컴그과제\framework\glm.cpp(306): warning C4305: '=' : 'double'에서 'GLfloat'(으)로 잘립니다.
+     1>e:\과제\컴그\5176270컴그과제\framework\glm.cpp(307): warning C4305: '=' : 'double'에서 'GLfloat'(으)로 잘립니다.
+     1>e:\과제\컴그\5176270컴그과제\framework\glm.cpp(308): warning C4305: '=' : 'double'에서 'GLfloat'(으)로 잘립니다.
+     1>e:\과제\컴그\5176270컴그과제\framework\glm.cpp(310): warning C4305: '=' : 'double'에서 'GLfloat'(으)로 잘립니다.
+     1>e:\과제\컴그\5176270컴그과제\framework\glm.cpp(311): warning C4305: '=' : 'double'에서 'GLfloat'(으)로 잘립니다.
+     1>e:\과제\컴그\5176270컴그과제\framework\glm.cpp(312): warning C4305: '=' : 'double'에서 'GLfloat'(으)로 잘립니다.
+         DrawUtils.cpp
+         3DUtils.cpp
+         코드를 생성하고 있습니다...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../utilities /IC:\Graphics\Tools\glew\include /IC:\Graphics\Tools\fltk\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D FL_DLL /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt GLee.c libtarga.c
+         libtarga.c
+         GLee.c
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\FrameWork.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\utilities\lib /LIBPATH:C:\Graphics\Tools\fltk\lib /LIBPATH:C:\Graphics\Tools\glew\lib fltkdlld.lib comctl32.lib wsock32.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\OpenGL-CutIt2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\FrameWork.lib" /MACHINE:X86 /SAFESEH Debug\3DUtils.obj
+         Debug\DrawUtils.obj
+         Debug\GLee.obj
+         Debug\glm.obj
+         Debug\libtarga.obj
+         Debug\main.obj
+         Debug\MMatrix.obj
+         Debug\MyGlWindow.obj
+         Debug\RunButton.obj
+         Debug\stdafx.obj
+     1>3DUtils.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+         FrameWork.vcxproj -> E:\과제\컴그\5176270컴그과제\FrameWork\Debug\FrameWork.exe
+     1>"E:\과제\컴그\5176270컴그과제\FrameWork\FrameWork.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:06.95
